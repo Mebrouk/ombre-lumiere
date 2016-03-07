@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Mebrouk</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+		body {
+			color: #fff;
+			font-family: GeosansLight, sans-serif;
+		}
+		#fond {
+			background-color: rgba(0, 0, 0, 0.5);
+		    position: absolute;
+		    z-index: 2;
+		    width: 100%;
+		    height: 100%;
+		}
+		iframe:hover{
+			width: 420px; 
+			height: 315px;
+			transition-duration: 3s;
+			} 
+	</style>
+  </head>
+  <body>
+    <div id="container">
+    	<div id="fond"></div>
+    	<a href="index.html"><img src="img/logo.png" id="logo"></a>
+		<div id="thumbs">
+			<img src="img/backg.jpg" id="img">
+			<ul>
+				<li class="cd-single-point" onclick="function()">
+					<a class="cd-img-replace" href="#0">More</a>
+					<div class="cd-more-info cd-top">
+						<p>
+							Les reflets blanchâtres du papier, comme s’ils étaient impuissants à entamer les ténèbres épaisses du toko no ma, rebondissent en quelque sorte sur ces ténèbres, révélant un univers ambigu où l’ombre et la lumière se confondent. N’avez-vous jamais, vous qui me lisez, au moment de pénétrer dans une de ces salles, éprouvé le sentiment que la clarté qui flotte, diffuse, dans la pièce, n’est pas une clarté ordinaire, qu’elle possède une qualité rare, une pesanteur particulière ?
+						</p>
+						<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+					</div>
+				</li>
+
+				<li class="cd-single-point" onclick="function()">
+					<a class="cd-img-replace" href="#0">More</a>
+					<div class="cd-more-info cd-right">
+						<p>
+							<iframe width="210" height="132" src="https://www.youtube.com/embed/MSyQV5AiRMM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+						</p>
+						<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+					</div>
+				</li>
+
+				<li class="cd-single-point" onclick="function()">
+					<a class="cd-img-replace" href="#0">More</a>
+					<div class="cd-more-info cd-right">
+						<p>
+							C’est ainsi que lorsque nous entreprenons la construction de nos demeures, avant toute chose nous déployons ce toit ainsi qu’un parasol qui détermine au sol un périmètre protégé du soleil, puis dans cette pénombre nous disposons la maison. Bien entendu, une maison d’Occident ne peut non plus se passer de toit, mais la destination principale, n’en est pas tant de faire obstacle à la lumière solaire, que de protéger des intempéries ; on le construit donc de telle sorte qu’il répande le moins d’ombre possible, et un simple coup d’œil sur son aspect extérieur permet de reconnaître que l’on a cherché à obtenir pour l’intérieur la meilleure exposition à la lumière. Si le toit japonais est un parasol, l’occidental n’est rien de plus qu’un couvre-chef. Mieux, comme dans une casquette, les bords sont réduits à si peu de chose que les rayons directs du soleil peuvent frapper les murs jusqu’au ras du toit.
+						</p>
+						<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+					</div>
+				</li>
+
+				<li class="cd-single-point" onclick="function()">
+					<a class="cd-img-replace" href="#0">More</a>
+					<div class="cd-more-info cd-left">
+						<h2>Eté Précoce 1951SHOJI</h2>
+						<p>
+							Cette paroi traditionnelle japonaise est constituée de papier de riz translucide monté sur une trame de bois, souvent disposés sur des paroi elles permettent d'obtenir une lumière tamisé, et de pouvoir la moduler tout au long de la journée. C'est à l'époque de Kamakura qu'il prend son sens définitif.
+						</p>
+						<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$( function() {
+		  $('#fond').toggle( function() {
+		    $(this).css('backgroundColor', 'rgba(0, 0, 0, 0.7)');
+		  },function(){
+		  $(this).css('backgroundColor', 'rgba(0, 0, 0, 0)');
+		  });
+		} );
+	</script>
+	<script src="js/modernizr.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/index.js"></script>
+	<script src="js/main.js"></script>
+  </body>
+</html>
