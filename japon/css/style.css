@@ -156,7 +156,7 @@ min-height: 650px;
 }
 .cd-single-point:nth-of-type(4) {
   top: 43%;
-  right: 29%;
+  right: 33%;
 }
 .cd-single-point.is-open > a {
   background-color: rgba(0, 0, 0, 0.7);
