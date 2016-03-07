@@ -159,8 +159,8 @@ min-height: 650px;
   right: 29%;
 }
 .cd-single-point.is-open > a {
-  background-color: rgba(71, 95, 116, 0.7);
-  box-shadow: 0 0 10px rgba(71, 95, 116, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 .cd-single-point.is-open > a::after, .cd-single-point.is-open > a::before {
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(135deg);
@@ -186,8 +186,8 @@ min-height: 650px;
   transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
 }
 .cd-single-point.visited > a {
-  background-color: rgba(71, 95, 116, 0.5);
-    box-shadow: 0 0 10px rgba(71, 95, 116, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 .cd-single-point.visited::after {
   /* pulse effect no more active on visited elements */
@@ -305,7 +305,7 @@ min-height: 650px;
     overflow-y: visible;
     line-height: 1.4;
     border-radius: 0.25em;
-    /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);*/
+    /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);*/
   }
   .cd-single-point .cd-more-info::before {
     display: block;
